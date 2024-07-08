@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.T.E Student Management System</title>
+    
+    <link rel="stylesheet" href="../css/index.css">
+    
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+          <div class="logo">
+           
+           <ol><li><p>Federal University of Technology,<br>Owerri</p></li></ol>
+              
+          </div>
+           <nav>
+             
+            <ul>
+              <li><a href="index1.html">Home</a></li>
+              <li><a href="spredsheet.html">Result Spreadsheet</a></li>
+              <li><a href="prospective.html">Prospective Students</a></li>
+              <li>
+                
+                <select id="myDropdown">
+                <option value="demo"><label for="dropdown">Level</label></option>
+                <option value="level1">100 Level</option>
+                <option value="level2">200 Level</option>
+                <option value="level3">300 Level</option>
+                <option value="level4">400 Level</option>
+                <option value="level5">500 Level</option>
+              </select>
+              
+            </li>
+    
+              <li>
+                
+                <select id="myDropdown2">
+                <option value="demo"><label for="dropdown">Semester</label></option>
+                <option value="semester1">Harmattan</option>
+                <option value="semester2">Rain</option>
+                
+              </select></li>
+              
+              <li><a href="support.html">Help/support</a></li>
+            </ul>
+           </nav>
+        </div>
+      </div>
+    
+    <div id="main_page">
+        </div>
+        <h1>RESULT CHECKER</h1>
+        <br>
+       <div id="imagediv">
+           <img src="" alt="" width="200" height="200">
+       </div>
+       <br>
+       <p id="output"><em></em></p>
+       <div id="personal_data">
+           <h2>Personal Data</h2>
+           <table width = "250" cellpadding = "3" cellspacing = "4" id="one">
+           
+                <tbody>
+                    <tr>
+                        <th scope="row">Name</th>
+                        <td id="initials">***</td>  
+                    </tr>
+                    <tr>
+                        <th scope="row">Matric No</th>
+                        <td id="regno">***</td>  
+                    </tr>
+                    <tr>
+                        <th scope="row">Department</th>
+                        <td id="dept_1">***</td>  
+                    </tr>
+                    <tr>
+                        <th scope="row">Level</th>
+                        <td id="level">***</td>  
+                    </tr>
+                    <tr>
+                        <th scope="row">semester</th>
+                        <td id="sem">***</td>  
+                    </tr>
+                </tbody>
+            
+           
+           </table>
+       </div>
+
+       <div id="academicdata">
+        <h2>Results</h2>
+
+        <table width = "400" cellpadding = "3" cellspacing = "4" id="two">
+            <thead>
+                <tr>
+                    <th scope="col">Level</th>
+                    <th scope="col">Harmattan Semester GP</th>
+                    <th scope="col">Rain Semester GP</th>
+                    <th scope="col">CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">100 L</th>
+                    <td id="first1"></td>
+                    <td id="second1"></td>
+                    <td id="cgpa1"></td>
+                </tr>
+                <tr>
+                    <th scope="row">200 L</th>
+                    <td id="first2"></td>
+                    <td id="second2"></td>
+                    <td id="cgpa2"></td>
+                </tr>
+                <tr>
+                    <th scope="row">300 L</th>
+                    <td id="first3"></td>
+                    <td id="second3"></td>
+                    <td id="cgpa3"></td>
+                </tr>
+                <tr>
+                    <th scope="row">400 L</th>
+                    <td id="first4"></td>
+                    <td id="second4"></td>
+                    <td id="cgpa4"></td>
+                </tr>
+                <tr>
+                    <th scope="row">500 L</th>
+                    <td id="first5"></td>
+                    <td id="second5"></td>
+                    <td id="cgpa5"></td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+
+
+    </div>
+<br>
+   <div id="input_output">
+    <input id="input" type="text" placeholder="Enter student's reg no...">
+    <button>Enter</button>
+   </div>
+    
+   <script src="../javascript/index.js"></script> 
+</body>
+</html>

@@ -1,0 +1,153 @@
+*{
+ 
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color:rgb(194, 191, 191);
+    font-family: sans-serif;
+    z-index: 100%;
+}
+
+.navbar{
+    width: 100%;
+    color: white;
+    background-color: rgb(4, 56, 4);
+    height: 80px;
+}
+.navbar .container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    margin-left: 10px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: small;
+}
+
+.logo{
+    display: flex;
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+    margin: 0 5px;
+}
+.logo ul li a{
+    margin: 0 10px;
+    list-style: none;
+    color: white;
+}
+.logo ol li{
+    margin: 0 5px;
+    list-style: none;
+    display: flex;
+    margin-right: 5px;
+    font-size: large;
+}
+
+
+
+.form{
+    margin: auto;
+    width: 30%;
+   
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+    
+   
+}
+.textInput{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    margin-left: -3px;
+    padding: 18px;
+    outline: none;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 4px;
+
+}
+.cap{
+    padding: 30px;
+    margin: 3%;
+    width: 70px;
+    height: 60px;
+    background-color: rgb(4, 56, 4);
+    border-radius: 50%;
+    text-align: justify;
+    margin-left: 43%;
+}
+.cap img{
+    display: block;
+    margin-left: -20px;
+    margin-top: -15px;
+}
+.login{
+    text-align: center;
+   
+}
+#Login{
+    
+    width: 100%;
+    margin: 10px auto;
+    padding: 18px;
+    outline: none;
+    border: none;
+    background-color: rgb(4, 56, 4);
+    margin-left: -3px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+.vote{
+    
+    color: rgb(17, 169, 230);
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    word-spacing: 10%;
+    margin-left: -3px;
+}
+.forget{
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.first{
+    margin-left: 5px;
+    font-size: small;
+}
+
+.mrprime{
+    text-align: center;
+    font-size:small;
+    color: rgb(58, 58, 58);
+}
+
+.icon{
+    background-color: rgb(4, 56, 4);
+    color: #fff;
+    border: none;
+    font-size: small;
+    
+}

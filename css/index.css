@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+#main_page
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+}
+
+ h1, h2, h3 
+ {
+     color: rgb(7, 82, 7);
+     text-align: center;
+    
+ }
+
+
+#output 
+{
+    margin-left: 47%; 
+}
+ 
+
+#imagediv img
+{
+    border-radius: 50%;
+    margin-left: 45%;
+    
+}
+
+td, tr, th
+{
+    padding: 5px;
+    border: 2px solid;
+}
+table
+{
+    width: 600px;
+    border-collapse: collapse;
+   
+    margin-left: 35%;
+    
+}
+th,td
+{
+    padding: 7px 10px 10px 10px;
+}
+
+th
+{
+   text-transform: uppercase;
+   font-size: 70%;
+   text-align: left;
+}
+
+#personal_data, #academicdata
+{
+    display: none;
+}
+
+ td
+{
+    text-align: left;
+}
+.navbar{
+    width: 100%;
+    color: white;
+    background-color: rgb(4, 56, 4);
+    height: 80px;
+}
+.navbar .container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    margin-left: 10px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 9px;
+    font-size: small;
+}
+
+.logo{
+    display: flex;
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+    margin: 0 5px;
+}
+.logo ul li a{
+    margin: 0 10px;
+    list-style: none;
+    color: white;
+}
+.logo ol li{
+    margin: 0 5px;
+    list-style: none;
+    display: flex;
+    margin-right: 3px;
+    font-size: large;
+}
+.icon{
+    background-color: rgb(4, 56, 4);
+    color: #fff;
+    border: none;
+    font-size: small;
+    
+}
+
+#input_output
+{
+    margin-left: 44%;
+}
+
+
+
+
+
+
+
